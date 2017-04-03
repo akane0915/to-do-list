@@ -5,8 +5,8 @@
 To Do list allows a user to enter a series of tasks, and prints those tasks to a digital list. When the user completes each task, they can move the task to the Completed Task list by clicking the corresponding checkbox.
 ## Setup/Installation Requirements
 * View app on:
-  * http://akane0915.github.io/to-do-list
-  * or http://seanpierce.github.io/to-do-list
+  * https://akane0915.github.io/to-do-list
+  * or https://seanpierce.github.io/to-do-list
 * Clone the repository
 * Open index.html in browser and all files in text editor of your choice
 * Make changes as needed
