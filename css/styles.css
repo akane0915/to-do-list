@@ -7,10 +7,10 @@ ul li {
   cursor: pointer;
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
   margin-right: 10px;
 }
 
-.strike-through{
+.strike-through {
   text-decoration: line-through;
 }
