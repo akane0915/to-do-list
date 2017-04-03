@@ -10,7 +10,16 @@ ul li {
 input[type=checkbox] {
   margin-right: 10px;
 }
-
-.strike-through {
+#clear {
+  padding: 10px;
+  border: solid 1px black;
+  display: inline-block;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+#completed-tasks ul li {
   text-decoration: line-through;
+  cursor: default;
 }
