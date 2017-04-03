@@ -11,11 +11,13 @@ $(document).ready(function(){
 
     var newTask = new Task(taskInput);
 
-    $("#output ul").append("<li>" + newTask.description + "</li>");
+    $("#todo ul").append("<li>" + newTask.description + "</li>");
 
-    $("#output ul li").click(function(){
+    $("#todo ul li").click(function(){
+      $("#completed-tasks ul").append("<li>" + $(this).text() + "</li>");
       this.remove();
     });
 
+    this.reset();
   });
 });
