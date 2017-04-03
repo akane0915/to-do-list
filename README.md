@@ -1,26 +1,33 @@
-# README title
-#### This is a brief description of what the software does.
-#### By Author
+# To Do List
+#### This is a web app for keeping track of your tasks!
+#### By Asia Kane and Sean Pierce
 ## Description
-This a a more detailed description of what the software does. Be specific and leave nothing to chance. This is a good place to really inform the user about your code.
+To Do list allows a user to enter a series of tasks, and prints those tasks to a digital list. When the user completes each task, they can move the task to the Completed Task list by clicking the corresponding checkbox.
 ## Setup/Installation Requirements
-* list item 1
-* list item 2
-* list item 3
+* View app on akane0915.github.io/to-do-list or seanpierce.github.io/to-do-list
+* Clone the repository
+* Open index.html in browser and all files in text editor of your choice
+* Make changes as needed
+* Submit changes on github as pull request
+
 ## Project Specs:
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
 | The Program will provide a form for the user to add a task to their to-do list | Laundry | N/A |
 | The Program will display each item in their list to an area below the form | Laundry, Dishes | Laundry Dishes |
 | The program will allow the user to remove an item from the list by clicking a corresponding checkbox | (Click checkbox) Laundry | ("Laundry" removed) |
+
 ## Known Bugs
-List known bugs or issues here
+N/A
+
 ## Technologies Used
-* Tech 1
-* Tech 2
-* Tech 3
+* HTML
+* CSS
+* Javascript
+
 ## Support and contact details
-_contact info here_
+_Comment on Github repository_
+
 ### License
 _MIT_
-Copyright (c) _year_ **Author or Organization**
+Copyright (c) _2017_ **Asia Kane and Sean Pierce**

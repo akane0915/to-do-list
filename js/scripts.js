@@ -11,10 +11,10 @@ $(document).ready(function(){
 
     var newTask = new Task(taskInput);
 
-    $("#todo ul").append("<li>" + newTask.description + "</li>");
+    $("#todo ul").append("<li><input type='checkbox'>" + newTask.description + "</li>");
 
-    $("#todo ul li").click(function(){
-      $("#completed-tasks ul").append("<li>" + $(this).text() + "</li>");
+    $("#todo ul li").last().click(function(){
+      $("#completed-tasks ul").append("<li>" + $(this).text() + "</li>").addClass("strike-through");
       this.remove();
     });
 
